@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Blogging Dev Site</title>
+        <link>http://kamuitubeda.github.io/tags/</link>
+        <description>Tags - Tag - Blogging Dev Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>kamuitubeda@gmail.com (Saad Ahsan)</managingEditor>
+            <webMaster>kamuitubeda@gmail.com (Saad Ahsan)</webMaster><atom:link href="http://kamuitubeda.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>
