@@ -1,0 +1,73 @@
+baseURL = "http://kamuitubeda.github.io/"
+languageCode = "en-us"
+title = "Blogging Dev Site"
+subtitle = "This is My New Hugo Site"
+defaultContentLanguage = "en"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "DoIt"
+
+contentDir = 'contents'
+
+[params]
+  # DoIt theme version
+  version = "0.2.X"
+
+  [params.social]
+    Twitter = "kamuitubeda"
+    Instagram = "kamuitubeda"
+
+  [params.home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = "kamuitubeda@gmail.com"
+    # URL of avatar shown in home page
+    avatarURL = "/images/avatar.webp"
+    title = ""
+    # subtitle shown in home page
+    subtitle = "This is My New Hugo Site"
+    typeit = true
+    social = true
+
+[author]
+  name = "Saad Ahsan"
+  email = "kamuitubeda@gmail.com"
+  link = ""
+  avatar = "/images/avatar.webp"
+  gravatarEmail = "kamuitubeda@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
