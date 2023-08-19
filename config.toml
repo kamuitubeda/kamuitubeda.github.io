@@ -1,4 +1,4 @@
-baseurl = "http://kamuitubeda.github.io/"
+baseurl = "https://dev.kamuitubeda.com/"
 
 theme = "hugo-blog-awesome"
 
